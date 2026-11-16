@@ -1,0 +1,248 @@
+{
+  "default": {
+    "title": "Try Python",
+    "instructions": "Write some Python code and click Run.",
+    "code": "print(\"Hello from Python!\")",
+    "hint": ""
+  },
+  "debug01": {
+    "title": "Debug 1",
+    "instructions": "This function should add 1 to a number and print 5. Run the code, read any error, and fix the mistake.",
+    "code": "def add_one(number)\n    return number + 1\n\nprint(add_one(4))",
+    "hint": "Check the punctuation at the end of the function definition."
+  },
+  "debug02": {
+    "title": "Debug 2",
+    "instructions": "This function should subtract 2 from 8 and print 6. Run it and fix the mistake.",
+    "code": "def subtract_two(number):\n    return number + 2\n\nprint(subtract_two(8))",
+    "hint": "Check which arithmetic operation the function uses."
+  },
+  "debug03": {
+    "title": "Debug 3",
+    "instructions": "This function should return True for 5 and print True. Run the code and fix the error.",
+    "code": "def is_positive(number):\n    if number > 0\n        return True\n    return False\n\nprint(is_positive(5))",
+    "hint": "An if statement needs punctuation at the end of its first line."
+  },
+  "debug04": {
+    "title": "Debug 4",
+    "instructions": "This function should add two numbers and print 9. Run it and fix the mistake.",
+    "code": "def add_numbers(first, second):\n    return first * second\n\nprint(add_numbers(4, 5))",
+    "hint": "Does the function combine the numbers by adding or multiplying them?"
+  },
+  "debug05": {
+    "title": "Debug 5",
+    "instructions": "This function should add 3 to 4 and print 7. Run the code and fix the error.",
+    "code": "def add_three(number):\n    return (number + 3\n\nprint(add_three(4))",
+    "hint": "Check that every opening bracket has a matching closing bracket."
+  },
+  "debug06": {
+    "title": "Debug 6",
+    "instructions": "This function should return True for the even number 8. Run it and fix the mistake.",
+    "code": "def is_even(number):\n    return number % 2 == 1\n\nprint(is_even(8))",
+    "hint": "What remainder should an even number have when divided by 2?"
+  },
+  "debug07": {
+    "title": "Debug 7",
+    "instructions": "This function should double 6 and print 12. Run the code and fix the error.",
+    "code": "def double(number):\n    return = number * 2\n\nprint(double(6))",
+    "hint": "The return keyword is followed by the value to send back, not an assignment."
+  },
+  "debug08": {
+    "title": "Debug 8",
+    "instructions": "This function should print 'Hello, Ava'. Run it and fix the mistake.",
+    "code": "def greet(name):\n    return \"Hello, friend\"\n\nprint(greet(\"Ava\"))",
+    "hint": "The function receives a name. Check whether its return value uses that input."
+  },
+  "debug09": {
+    "title": "Debug 9",
+    "instructions": "This function should print the words Good morning. Run the code and fix the error.",
+    "code": "def greeting():\n    return \"Good morning\n\nprint(greeting())",
+    "hint": "Check that the text starts and ends with a matching quote."
+  },
+  "debug10": {
+    "title": "Debug 10",
+    "instructions": "This function should return the larger of 3 and 7, so it should print 7. Run it and fix the mistake.",
+    "code": "def larger(first, second):\n    if first < second:\n        return first\n    return second\n\nprint(larger(3, 7))",
+    "hint": "Check which value is returned when the first number is smaller."
+  },
+  "debug11": {
+    "title": "Debug 11",
+    "instructions": "This function should square 3 and print 9. Run the code and fix the error.",
+    "code": "def square(2number):\n    return 2number * 2number\n\nprint(square(3))",
+    "hint": "Python variable names cannot begin with a number."
+  },
+  "debug12": {
+    "title": "Debug 12",
+    "instructions": "This function should return the last digit of 47 and print 7. Run it and fix the mistake.",
+    "code": "def last_digit(number):\n    return number // 10\n\nprint(last_digit(47))",
+    "hint": "Think about which arithmetic operator gives the remainder after dividing by 10."
+  },
+  "debug13": {
+    "title": "Debug 13",
+    "instructions": "This function should double 4 and print 8. Run the code and fix the error.",
+    "code": "def double(number):\nreturn number * 2\n\nprint(double(4))",
+    "hint": "The function body needs to be indented beneath its definition."
+  },
+  "debug14": {
+    "title": "Debug 14",
+    "instructions": "This function should turn 5 into -5 and print -5. Run it and fix the mistake.",
+    "code": "def make_negative(number):\n    return abs(number)\n\nprint(make_negative(5))",
+    "hint": "The function should change the sign of a positive number."
+  },
+  "debug15": {
+    "title": "Debug 15",
+    "instructions": "This function should triple 4 and print 12. Run the code and fix the error.",
+    "code": "def triple(number):\n    return number *\n\nprint(triple(4))",
+    "hint": "Look at the end of the return expression. Is the multiplication complete?"
+  },
+  "debug16": {
+    "title": "Debug 16",
+    "instructions": "A person who is 18 is an adult. This function should print True for 18. Run it and fix the mistake.",
+    "code": "def is_adult(age):\n    return age > 18\n\nprint(is_adult(18))",
+    "hint": "The comparison should include someone whose age is exactly 18."
+  },
+  "debug17": {
+    "title": "Debug 17",
+    "instructions": "This function should return True for 0 and print True. Run the code and fix the error.",
+    "code": "def is_zero(number):\n    if number = 0:\n        return True\n    return False\n\nprint(is_zero(0))",
+    "hint": "An if statement checks whether two values are equal; it does not assign a value."
+  },
+  "debug18": {
+    "title": "Debug 18",
+    "instructions": "This function should subtract 3 from 10 and print 7. Run it and fix the mistake.",
+    "code": "def subtract(first, second):\n    return first + second\n\nprint(subtract(10, 3))",
+    "hint": "Check whether the function uses the operation named in its name."
+  },
+  "debug19": {
+    "title": "Debug 19",
+    "instructions": "This function should square 5 and print 25. Run the code and fix the error.",
+    "code": "def square(number):\n    return number **\n\nprint(square(5))",
+    "hint": "The exponent operator needs a power value after it."
+  },
+  "debug20": {
+    "title": "Debug 20",
+    "instructions": "This function should return the smaller of 3 and 7, so it should print 3. Run it and fix the mistake.",
+    "code": "def smaller(first, second):\n    if first > second:\n        return first\n    return second\n\nprint(smaller(3, 7))",
+    "hint": "Check which value is returned when the first number is bigger."
+  },
+  "debug21": {
+    "title": "Debug 21",
+    "instructions": "This function should add the numbers from 1 to 4 and print 10. Run it and fix the mistake.",
+    "code": "def sum_to_n(n):\n    total = 0\n    for number in range(1, n):\n        total = total + number\n    return total\n\nprint(sum_to_n(4))",
+    "hint": "Check the stopping value in range. Does the loop include n?"
+  },
+  "debug22": {
+    "title": "Debug 22",
+    "instructions": "This function should count the even numbers in the list and print 2. Run it and fix the mistake.",
+    "code": "def count_evens(numbers):\n    count = 0\n    for number in numbers:\n        if number % 2 == 1:\n            count = count + 1\n    return count\n\nprint(count_evens([1, 2, 4]))",
+    "hint": "An even number has a remainder of 0 when divided by 2."
+  },
+  "debug23": {
+    "title": "Debug 23",
+    "instructions": "This function should count the positive numbers in the list and print 3. Run it and fix the mistake.",
+    "code": "def count_positive(numbers):\n    count = 0\n    for number in numbers:\n        if number > 1:\n            count = count + 1\n    return count\n\nprint(count_positive([1, 2, -1, 3]))",
+    "hint": "The number 1 is positive too. Check the boundary in the condition."
+  },
+  "debug24": {
+    "title": "Debug 24",
+    "instructions": "This function should return the larger of 8 and 3, so it should print 8. Run it and fix the mistake.",
+    "code": "def find_larger(first, second):\n    if first > second:\n        return second\n    else:\n        return first\n\nprint(find_larger(8, 3))",
+    "hint": "When the condition is true, which number is actually larger?"
+  },
+  "debug25": {
+    "title": "Debug 25",
+    "instructions": "This function should count words longer than 3 letters and print 2. Run it and fix the mistake.",
+    "code": "def count_long_words(words):\n    count = 0\n    for word in words:\n        if len(word) > 4:\n            count = count + 1\n    return count\n\nprint(count_long_words([\"cat\", \"tree\", \"house\"]))",
+    "hint": "Compare the number in the condition with the instruction's word length."
+  },
+  "debug26": {
+    "title": "Debug 26",
+    "instructions": "This function should add only the positive numbers and print 7. Run it and fix the mistake.",
+    "code": "def sum_positive(numbers):\n    total = 0\n    for number in numbers:\n        if number < 0:\n            total = total + number\n    return total\n\nprint(sum_positive([-2, 3, 4]))",
+    "hint": "Check the condition that decides which numbers are added to the total."
+  },
+  "debug27": {
+    "title": "Debug 27",
+    "instructions": "This function should check whether the list contains a zero and print True. Run it and fix the mistake.",
+    "code": "def contains_zero(numbers):\n    for number in numbers:\n        if number == 1:\n            return True\n    return False\n\nprint(contains_zero([2, 0, 5]))",
+    "hint": "The function is named for the value it needs to find. Check the value in the condition."
+  },
+  "debug28": {
+    "title": "Debug 28",
+    "instructions": "This function should repeat the word 'hi' three times and print hihihi. Run it and fix the mistake.",
+    "code": "def repeat_word(word, times):\n    result = \"\"\n    for number in range(times - 1):\n        result = result + word\n    return result\n\nprint(repeat_word(\"hi\", 3))",
+    "hint": "Check how many times the loop runs when times is 3."
+  },
+  "debug29": {
+    "title": "Debug 29",
+    "instructions": "This function should make a string of 4 stars and print ****. Run it and fix the mistake.",
+    "code": "def make_stars(count):\n    result = \"\"\n    for number in range(count):\n        result = result + \"!\"\n    return result\n\nprint(make_stars(4))",
+    "hint": "The loop repeats the right number of times. Check which character it adds."
+  },
+  "debug30": {
+    "title": "Debug 30",
+    "instructions": "This function should calculate the average of 2, 4, and 6 and print 4. Run it and fix the mistake.",
+    "code": "def average(numbers):\n    total = 0\n    for number in numbers:\n        total = total + number\n    return total / (len(numbers) - 1)\n\nprint(average([2, 4, 6]))",
+    "hint": "An average is the total divided by the number of items."
+  },
+  "debug31": {
+    "title": "Debug 31",
+    "instructions": "This function should describe 0 degrees as Freezing. Run it and fix the mistake.",
+    "code": "def describe_temperature(temperature):\n    if temperature <= 0:\n        return \"Below freezing\"\n    elif temperature == 0:\n        return \"Freezing\"\n    else:\n        return \"Above freezing\"\n\nprint(describe_temperature(0))",
+    "hint": "Check whether the first condition already includes 0."
+  },
+  "debug32": {
+    "title": "Debug 32",
+    "instructions": "A score of 50 is a pass. This function should print Pass for 50. Run it and fix the mistake.",
+    "code": "def get_result(score):\n    if score > 50:\n        return \"Pass\"\n    else:\n        return \"Fail\"\n\nprint(get_result(50))",
+    "hint": "The pass mark itself should count. Check the comparison at the boundary."
+  },
+  "debug33": {
+    "title": "Debug 33",
+    "instructions": "This function should add 4 and 2 and print 6. Run it and fix the mistake.",
+    "code": "def calculate(first, second, operation):\n    if operation == \"add\":\n        return first - second\n    else:\n        return first + second\n\nprint(calculate(4, 2, \"add\"))",
+    "hint": "Look at the operation used in the branch for 'add'."
+  },
+  "debug34": {
+    "title": "Debug 34",
+    "instructions": "This function should count words with 3 or fewer letters and print 2. Run it and fix the mistake.",
+    "code": "def count_short_words(words):\n    count = 0\n    for word in words:\n        if len(word) < 3:\n            count = count + 1\n    return count\n\nprint(count_short_words([\"I\", \"cat\", \"tree\"]))",
+    "hint": "The instructions say 3 letters or fewer. Does the condition include a word of length 3?"
+  },
+  "debug35": {
+    "title": "Debug 35",
+    "instructions": "This function should return the smallest number in the list and print 2. Run it and fix the mistake.",
+    "code": "def smallest_number(numbers):\n    smallest = numbers[0]\n    for number in numbers:\n        if number > smallest:\n            smallest = number\n    return smallest\n\nprint(smallest_number([5, 2, 8]))",
+    "hint": "When should the saved smallest value be replaced: when a number is bigger or smaller?"
+  },
+  "debug36": {
+    "title": "Debug 36",
+    "instructions": "This function should count numbers greater than 5 and print 1. Run it and fix the mistake.",
+    "code": "def count_over_five(numbers):\n    count = 0\n    for number in numbers:\n        if number >= 5:\n            count = count + 1\n    return count\n\nprint(count_over_five([5, 6, 2]))",
+    "hint": "The instruction says greater than 5, not 5 or greater."
+  },
+  "debug37": {
+    "title": "Debug 37",
+    "instructions": "This function should return the first even number and print 2. Run it and fix the mistake.",
+    "code": "def first_even(numbers):\n    for number in numbers:\n        if number % 2 == 1:\n            return number\n    return None\n\nprint(first_even([2, 3, 4]))",
+    "hint": "Check the remainder that identifies an even number."
+  },
+  "debug38": {
+    "title": "Debug 38",
+    "instructions": "This function should multiply the numbers in the list and print 24. Run it and fix the mistake.",
+    "code": "def multiply_all(numbers):\n    total = 1\n    for number in numbers:\n        total = total + number\n    return total\n\nprint(multiply_all([2, 3, 4]))",
+    "hint": "The starting value is ready for multiplication. Check the operation inside the loop."
+  },
+  "debug39": {
+    "title": "Debug 39",
+    "instructions": "This function should check whether every number is positive. It should print False for [0, 2]. Run it and fix the mistake.",
+    "code": "def all_positive(numbers):\n    for number in numbers:\n        if number < 0:\n            return False\n    return True\n\nprint(all_positive([0, 2]))",
+    "hint": "Positive numbers are greater than zero. What should happen when a number is exactly zero?"
+  },
+  "debug40": {
+    "title": "Debug 40",
+    "instructions": "This function should add the odd numbers from 1 to 5 and print 9. Run it and fix the mistake.",
+    "code": "def sum_odds_to_n(n):\n    total = 0\n    for number in range(1, n):\n        if number % 2 == 1:\n            total = total + number\n    return total\n\nprint(sum_odds_to_n(5))",
+    "hint": "Check whether the loop includes the number n."
+  }
+}
