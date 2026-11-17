@@ -6,7 +6,7 @@ and run real Python in the browser using [Pyodide](https://pyodide.org/) —
 no server, account, or install required. This one focusses on fixing functions in Python.
 
 The player shares its layout and code with
-[Python-Challenge-Runner-Functions](https://github.com/SteveRodkiss/Python-Challenge-Runner-Functions):
+[Python-Embed-Debug-Functions](https://github.com/SteveRodkiss/Python-Embed-Debug-Functions):
 a toolbar with an exercise drop-down, a Monaco editor, an output terminal and
 a step-through debugger.
 
